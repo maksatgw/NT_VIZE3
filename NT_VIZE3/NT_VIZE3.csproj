@@ -69,6 +69,11 @@
   <ItemGroup>
     <Content Include="Hafta3\D1\Ders_1.aspx" />
     <Content Include="Hafta3\D1\Ders_1_Soru_1.aspx" />
+    <Content Include="Hafta3\D2\Ders_2.aspx" />
+    <Content Include="Hafta3\D2\Ders_2_Soru_1.aspx" />
+    <Content Include="Hafta3\D2\soru2flowchart_page-0001.jpg" />
+    <Content Include="Hafta3\D3\Ders_3.aspx" />
+    <Content Include="Hafta3\D3\Ders_3_Soru_1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +90,34 @@
     </Compile>
     <Compile Include="Hafta3\D1\Ders_1_Soru_1.aspx.designer.cs">
       <DependentUpon>Ders_1_Soru_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta3\D2\Ders_2.aspx.cs">
+      <DependentUpon>Ders_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta3\D2\Ders_2.aspx.designer.cs">
+      <DependentUpon>Ders_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta3\D2\Ders_2_Soru_1.aspx.cs">
+      <DependentUpon>Ders_2_Soru_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta3\D2\Ders_2_Soru_1.aspx.designer.cs">
+      <DependentUpon>Ders_2_Soru_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta3\D3\Ders_3.aspx.cs">
+      <DependentUpon>Ders_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta3\D3\Ders_3.aspx.designer.cs">
+      <DependentUpon>Ders_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta3\D3\Ders_3_Soru_1.aspx.cs">
+      <DependentUpon>Ders_3_Soru_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta3\D3\Ders_3_Soru_1.aspx.designer.cs">
+      <DependentUpon>Ders_3_Soru_1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
