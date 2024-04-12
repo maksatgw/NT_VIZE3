@@ -77,6 +77,15 @@
     <Content Include="Hafta4\D1\Ders_1.aspx" />
     <Content Include="Hafta4\D1\Ders_1_Konu_2.aspx" />
     <Content Include="Hafta4\D1\Ders_1_Soru_1.aspx" />
+    <Content Include="Hafta4\D2\Ders2Soru2\Anasayfa.aspx" />
+    <Content Include="Hafta4\D2\Ders2Soru2\Resim1.aspx" />
+    <Content Include="Hafta4\D2\Ders2Soru2\Resim2.aspx" />
+    <Content Include="Hafta4\D2\Ders_2.aspx" />
+    <Content Include="Hafta4\D2\Ders_2_Konu_2.aspx" />
+    <Content Include="Hafta4\D2\Ders_2_Soru_1.aspx" />
+    <Content Include="Hafta4\D2\Ders2Soru2\Ders_2_Soru_2.aspx" />
+    <Content Include="Hafta4\D2\resim\1.jpg" />
+    <Content Include="Hafta4\D3\Ders_3.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +151,62 @@
     </Compile>
     <Compile Include="Hafta4\D1\Ders_1_Soru_1.aspx.designer.cs">
       <DependentUpon>Ders_1_Soru_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Resim1.aspx.cs">
+      <DependentUpon>Resim1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Resim1.aspx.designer.cs">
+      <DependentUpon>Resim1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Resim2.aspx.cs">
+      <DependentUpon>Resim2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Resim2.aspx.designer.cs">
+      <DependentUpon>Resim2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2.aspx.cs">
+      <DependentUpon>Ders_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2.aspx.designer.cs">
+      <DependentUpon>Ders_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2_Konu_2.aspx.cs">
+      <DependentUpon>Ders_2_Konu_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2_Konu_2.aspx.designer.cs">
+      <DependentUpon>Ders_2_Konu_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2_Soru_1.aspx.cs">
+      <DependentUpon>Ders_2_Soru_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders_2_Soru_1.aspx.designer.cs">
+      <DependentUpon>Ders_2_Soru_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Ders_2_Soru_2.aspx.cs">
+      <DependentUpon>Ders_2_Soru_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D2\Ders2Soru2\Ders_2_Soru_2.aspx.designer.cs">
+      <DependentUpon>Ders_2_Soru_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hafta4\D3\Ders_3.aspx.cs">
+      <DependentUpon>Ders_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hafta4\D3\Ders_3.aspx.designer.cs">
+      <DependentUpon>Ders_3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
